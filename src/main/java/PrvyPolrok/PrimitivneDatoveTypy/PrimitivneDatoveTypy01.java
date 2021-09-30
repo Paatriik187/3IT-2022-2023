@@ -13,7 +13,7 @@ public class PrimitivneDatoveTypy01 {
         int mesiac = 7;
         int rok = 2005;
 
-        int Vysledok2 = den + mesiac + rok;
+        int Vysledok2 = den + mesiac + rok;//64b
 
         long VelkeCislo = 4_000_000_000L; //64b
         int Cislo = 552; //32b
