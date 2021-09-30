@@ -1,4 +1,4 @@
-package PrimitivneDatoveTypy;
+package PrvyPolrok.PrimitivneDatoveTypy;
 
 public class CeleCisla {
 

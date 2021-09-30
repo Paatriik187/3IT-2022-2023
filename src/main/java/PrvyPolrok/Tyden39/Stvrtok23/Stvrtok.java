@@ -1,4 +1,4 @@
-package PrvyPolrok.Stvrtok23;
+package PrvyPolrok.Tyden39.Stvrtok23;
 
 public class Stvrtok {
 

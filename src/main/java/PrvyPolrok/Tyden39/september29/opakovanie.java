@@ -1,4 +1,4 @@
-package PrvyPolrok.september29;
+package PrvyPolrok.Tyden39.september29;
 
 
 public class opakovanie {
