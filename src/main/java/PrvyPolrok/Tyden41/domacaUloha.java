@@ -4,9 +4,9 @@ public class domacaUloha {
 
     public static void main(String[] args) {
 
-        valec(4,5);
+        valec(3,5);
         System.out.println( );
-        elipsa(2,3);
+        elipsa(2,4);
         System.out.println( );
         trojuholnik(4,6,3,2.67);
         System.out.println( );
