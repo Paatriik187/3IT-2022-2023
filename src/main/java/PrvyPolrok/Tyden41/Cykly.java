@@ -8,6 +8,7 @@ public class Cykly {
         System.out.println(" ");
 
 
+
     }
     static void cisla () {
         int[] polecisel = new int[]{1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
