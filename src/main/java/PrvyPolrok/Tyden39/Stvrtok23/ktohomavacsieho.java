@@ -6,18 +6,18 @@ public class ktohomavacsieho {
 
         int Patrik = 18*7*2005;
         int Tomas = 15*2*2005;
-        boolean Porovnanie = Patrik>Tomas;
+        boolean Porovnanie = Patrik==Tomas;
 
 
         String vysledok;
         if (Porovnanie){
-            vysledok = "Ano";
+            vysledok = "Samozrejme";
         }
         else{
-            vysledok= "Nie";
+            vysledok= "Určite";
 
         }
-        System.out.println("Mam ho vacsiho nez Tomas? " + vysledok );
+        System.out.println("Je tomas gay? " + vysledok );
         System.out.println(47571%458);
     }
 }

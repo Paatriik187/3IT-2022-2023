@@ -6,7 +6,7 @@ public class Cykly {
 
         cisla3();
         System.out.println(" ");
-
+        prepisanienawhile();
 
 
     }
@@ -34,5 +34,13 @@ public class Cykly {
         }
         System.out.println(v);
 
+    }
+    static void prepisanienawhile(){
+        int x=1;
+        while (x<=10){
+            System.out.println(x);
+            x++;
+
+        }
     }
 }
