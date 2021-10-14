@@ -30,7 +30,6 @@ public class domacaUloha {
         System.out.println("Obvod trojuholnika so stranami "+a+","+b+" a "+c+" je "+ (a+b+c));
         System.out.println("Obsah trojuholnika so stranami "+a+","+b+","+c+" a vyskou "+va+" je "+ ((a*va)/2));
 
-
     }
     static void sestuholnik(double a){
 
