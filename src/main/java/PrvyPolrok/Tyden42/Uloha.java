@@ -1,7 +1,7 @@
 package PrvyPolrok.Tyden42;
 
 public class Uloha {
-    static int rok = 1975;
+    static int rok = 2012;
     public static void main(String[] args) {
         prestupnyrok(rok);
         System.out.println("-----------");
