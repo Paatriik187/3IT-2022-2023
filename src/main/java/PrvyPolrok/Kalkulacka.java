@@ -3,24 +3,34 @@ package PrvyPolrok;
 public class Kalkulacka {
 
     public static void main(String[] args) {
-        scitanie(0.9,1);
+        scitanie(5,1);
         odcitanie(1,8);
-        nasobenie(5,57);
+        nasobenie(2,8);
         delenie(1800,18);
     }
-    static void scitanie(double x, double y){
-        System.out.println(x+y);
+    static double scitanie(double x, double y){
+        double z =x+y;
+        System.out.println(x+" + "+y+" = "+ z);
+        return z;
     }
-    static void odcitanie(double x, double y){
-        System.out.println(x-y);
+    static double odcitanie(double x, double y){
+        double z = x-y;
+        System.out.println(x+" - "+y+" = "+ z);
+        return z;
     }
-    static void nasobenie(double x, double y){
-        System.out.println(x*y);
+    static double nasobenie(double x, double y){
+        double z = x*y;
+        System.out.println(x+" * "+y+" = "+ x*y);
+        return z;
     }
-    static void delenie(double x, double y){
+    static double delenie(double x, double y){
+        double z = x/y;
         if(y==0){System.out.println("Delenie nulou");}
         else {
-            System.out.println(x / y);
+
+            System.out.println(x+" / "+y+" = "+ z);
+
         }
+        return z;
     }
 }
