@@ -10,7 +10,7 @@ public class vetvenieKodu {
         lenif(true,"Patrik Smolicek");
         ifele(false,"Patrik Smolicek");
 
-        dniVTyzdni(-1);
+        dniVTyzdni(3);
     }
     public static void Mojemeno(String meno){
 
