@@ -12,8 +12,8 @@ public class CyklyWhileADoWhile {
     static int spolocnex=10;
     static void ukazkawhile(String meno){
         int x=spolocnex;
-        while (x<=10){
-            System.out.println(x+" "+meno);
+        while (x<10){
+            System.out.println(meno);
             x++;
         }
 
@@ -23,7 +23,7 @@ public class CyklyWhileADoWhile {
         do{
             System.out.println(x+" "+meno);
             x++;
-        } while(x<=10);
+        } while(false);
 
 
     }
