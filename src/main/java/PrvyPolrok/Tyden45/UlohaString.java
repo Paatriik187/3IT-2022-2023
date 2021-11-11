@@ -10,7 +10,6 @@ public class UlohaString {
 
     static void test() {
         int total=0;
-        char[] poleznakov=text.toCharArray();
         for(int x=0;x<text.length();x++){
             if (text.charAt(x) == ' ') {
 
