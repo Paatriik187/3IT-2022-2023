@@ -1,9 +1,11 @@
 package PrvyPolrok.Tyden45;
 
+import java.util.Arrays;
+
 public class polia {
 
     public static void main(String[] args) {
-
+        osemPoli();
     }
     static void osemPoli(){
 
@@ -15,6 +17,9 @@ public class polia {
         long[] polesest=new long[5];
         char[] polesedem=new char[5];
         String[] poleosem=new String[5];
-        char[] polesedemr={0,8,10,105};
+        int[] cisla =new int[] {69,42,0,55,485,333,1598,5,444444444,-25};
+        Arrays.sort(cisla);
+        System.out.println(Arrays.toString(cisla));
+        System.out.println(cisla.toString());
     }
 }
