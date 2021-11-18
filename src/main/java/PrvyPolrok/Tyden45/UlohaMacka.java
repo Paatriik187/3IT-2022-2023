@@ -3,34 +3,32 @@ package PrvyPolrok.Tyden45;
 public class UlohaMacka {
 
     public static void main(String[] args) {
-        isCatPlaying(true,36);
+        isCatPlaying(true,25);
     }
     static boolean isCatPlaying(boolean Summer,int teplota){
+        boolean Cat;
         if(Summer){
-            if(teplota>25){
-                if(teplota<45){
-                    return true;
-                }
-                else{
-                    return false;
-                }
+            if(teplota>=25&teplota<45) {
+                Cat = true;
             }
-            else{
-                return false;}
+                else{
+                    Cat = false;
+                }
         }
         else{
-            if(teplota>25){
-                if (teplota<35){
-                    return true;
+            if(teplota>25&teplota<35){
+                    Cat = true;
                 }
                 else{
-                    return false;
+                    Cat = false;
                 }
-            }
-            else{
-                return false;
-            }
         }
-
+        if(Cat==true){
+            System.out.println("Macka sa hra");
+        }
+        else{
+            System.out.println("Macka sa nehra");
+        }
+        return Cat;
     }
 }
