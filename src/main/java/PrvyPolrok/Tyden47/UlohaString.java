@@ -18,10 +18,10 @@ public class UlohaString {
         for(int x =KontrolneSlovo.length()-1;x>=0;x--){
            // System.out.println(KontrolneSlovo.charAt(x));
             spolu = spolu+KontrolneSlovo.charAt(x);
-
+            System.out.println(spolu);
         }
-        System.out.println(spolu);
-        return false;
+
+        return KontrolneSlovo == spolu;
     }
 }
 
