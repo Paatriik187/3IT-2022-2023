@@ -13,7 +13,7 @@ public class navratoveTypy {
         System.out.println(patrik1);
         System.out.println(vratistring("Lubos"));
         System.out.println("----------");
-        System.out.println(vratiint("Tato veta ma 22 pismen"));
+        System.out.println(vratiint("Patrik"));
     }
 
     static void vratinic(String x){
@@ -27,7 +27,7 @@ public class navratoveTypy {
 
     static int vratiint(String x){
         int z =x.length();
-        System.out.println(x);
+        System.out.println("x");
         return z;
     }
 }
