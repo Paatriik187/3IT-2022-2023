@@ -3,7 +3,7 @@ package PrvyPolrok.Tyden49;
 
 public class test {
     public static void main(String[] args) {
-        bubblesort(new int[]{4844,45465,4,844,54,5,24,56,6,0});
+        bubblesort(new int[]{4,45465,4,844,54,5,24,56,6,0});
     }
 
     static void bubblesort(int[] pole) {
