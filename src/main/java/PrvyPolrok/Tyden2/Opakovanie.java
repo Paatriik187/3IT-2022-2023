@@ -20,6 +20,7 @@ public class Opakovanie {
         int[] ak = new int[5];
         System.out.println(Arrays.toString(hil));
         System.out.println(Arrays.toString(ak));
+        meno();
 
     }
     static void meno(){
@@ -30,6 +31,11 @@ public class Opakovanie {
             char test = up.charAt(x);
             System.out.println(no.charAt(x));
         }
+        int i = 7;
+        int z;
+        z=4+i++-2+ ++i+i;
+        System.out.println(z);
+        System.out.println(i);
 
     }
 }

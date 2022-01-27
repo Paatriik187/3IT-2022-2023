@@ -5,6 +5,7 @@ import java.util.Arrays;
 public class poleuzzase {
 
     public static void main(String[] args) {
+        System.out.println(Patriks(new int[]{4,6,7,49,1,5,66,4}));
         System.out.println(parnecisla(new int[]{465,7,8965,4,864,5,78,4,48,65,7,2,8,4,79}));
 
     }
