@@ -10,7 +10,8 @@ public class UlohaArrayList {
         System.out.println(jepraznda1(testovaciepole));
         System.out.println(jepraznda2(testovaciepole));
         System.out.println(velkost(testovaciepole));
-        System.out.println(vlozenie(testovaciepole,0,"Element"));
+        System.out.println(vlozenie(testovaciepole,0,"Standa"));
+        System.out.println(obsahujeElement(testovaciepole,"test"));
     }
     public static void pridanie(ArrayList<String> pole,String napridanie){
         pole.add(napridanie);
@@ -29,15 +30,34 @@ public class UlohaArrayList {
         }
     }
     public static String velkost(ArrayList<String> pole) {
-        int x =pole.size();
-    return "Velkost pola je "+x;
+    return "Velkost pola je "+pole.size();
     }
     public static String vlozenie(ArrayList<String> pole, int index,String element) {
+
         if(index<pole.size()){
-            return "Vlozeny " +element+ " na index "+index;
+            pole.set(index,element);
+            return "Vlozeny element " +element+ " na index "+index;
         }
         else{
             return "chybny index mimo rozsahu pola";
         }
     }
+    public static void vymazatPole(ArrayList<String> pole){
+        pole.clear();
+
+    }
+    public static String obsahujeElement(ArrayList<String> pole, String element){
+        // vrati text " pole obsahuje elelent : XXXXXX" a ked nie  " pole Neobsahuje elelent : XXXXXX
+        pole.add(element);
+        pole.remove(element);
+        if(pole.contains(element)){
+            return "Pole obsahuje element "+element;
+
+        }
+        else {
+            return "Pole neobsahuje element "+element;
+        }
+    }
+
+
 }
