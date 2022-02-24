@@ -12,5 +12,7 @@ public class Objekty {
         System.out.println(l);
         Kruh a = new Kruh();
         System.out.println(a);
+        KontrolaPrimitivnychDatovychTypovAString test = new KontrolaPrimitivnychDatovychTypovAString();
+        System.out.println(test);
     }
 }
