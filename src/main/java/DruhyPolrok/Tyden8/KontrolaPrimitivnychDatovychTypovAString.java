@@ -8,7 +8,6 @@ public class KontrolaPrimitivnychDatovychTypovAString {
     float d;
     double e;
     long f;
-    byte g;
     boolean h;
     char i;
     String j;
@@ -22,7 +21,6 @@ public class KontrolaPrimitivnychDatovychTypovAString {
                 ", d=" + d +
                 ", e=" + e +
                 ", f=" + f +
-                ", g=" + g +
                 ", h=" + h +
                 ", i=" + i +
                 ", j='" + j + '\'' +
