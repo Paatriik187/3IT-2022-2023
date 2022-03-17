@@ -18,6 +18,18 @@ public class PornoHerec {
         objemSemeniku=objemSemeniku-objemStreku;
     }
 
+    public void setObjemSemeniku(double objem){
+        if(objem < 0){
+            objemSemeniku = 0;
+        }
+        else{
+            objemSemeniku=objem;
+        }
+    }
+
+    public double getObjemSemeniku(){
+        return objemSemeniku;
+    }
     public PornoHerec(){}
 
     public PornoHerec(String Meno,String Pseudonymm,double objemSemenikuu,double dlzkaa,double dostrekk,double objemStrekuu){
