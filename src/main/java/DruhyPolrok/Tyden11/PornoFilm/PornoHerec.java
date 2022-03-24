@@ -30,6 +30,20 @@ public class PornoHerec {
     public double getObjemSemeniku(){
         return objemSemeniku;
     }
+
+    public void setdlzka(double dlzkaa){
+        if(dlzkaa < 0){
+            dlzka = 0;
+        }
+        else{
+            dlzka=dlzkaa;
+        }
+    }
+    public double getdlzka(){
+        return dlzka;
+    }
+
+
     public PornoHerec(){}
 
     public PornoHerec(String Meno,String Pseudonymm,double objemSemenikuu,double dlzkaa,double dostrekk,double objemStrekuu){
