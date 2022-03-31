@@ -12,7 +12,11 @@ public class zahrada {
         Standa.hrasasfenou(Jozef);
         Tomas.hrasasfenou(Standa);
         Jozef.hrasasfenou(Jozef);
-        System.out.println(Jozef.getRasa());
-        Jozef.setVek(69);
+        System.out.println("Jozef je "+Jozef.getRasa());
+        System.out.println("Standa je "+Standa.getPohlavie());
+        System.out.println(Tomas.getMeno());
+        System.out.println("Jozef je "+Jozef.getPohlavie());
+        Jozef.setVek(2);
+        System.out.println(Jozef.getVek());
     }
 }

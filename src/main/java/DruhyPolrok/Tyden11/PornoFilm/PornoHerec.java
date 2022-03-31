@@ -5,12 +5,12 @@ import java.util.List;
 
 public class PornoHerec {
 
-    String MenoPriezvisko;
-    String Pseudonym;
-    double objemSemeniku;
-    double dlzka;
-    double dostrek;
-    double objemStreku = 6.0;
+    private String MenoPriezvisko;
+    private String Pseudonym;
+    private double objemSemeniku;
+    private double dlzka;
+    private double dostrek;
+    private double objemStreku = 6.0;
     List<String> filmy = new ArrayList<>();
 
     public void hraVoFilme(String nazovFilmu){
@@ -25,6 +25,38 @@ public class PornoHerec {
         else{
             objemSemeniku=objem;
         }
+    }
+
+    public void setDlzka(double dlzka) {
+        this.dlzka = dlzka;
+    }
+
+    public void setDostrek(double dostrek) {
+        this.dostrek = dostrek;
+    }
+
+    public void setObjemStreku(double objemStreku) {
+        this.objemStreku = objemStreku;
+    }
+
+    public String getMenoPriezvisko() {
+        return MenoPriezvisko;
+    }
+
+    public String getPseudonym() {
+        return Pseudonym;
+    }
+
+    public double getDlzka() {
+        return dlzka;
+    }
+
+    public double getDostrek() {
+        return dostrek;
+    }
+
+    public double getObjemStreku() {
+        return objemStreku;
     }
 
     public double getObjemSemeniku(){

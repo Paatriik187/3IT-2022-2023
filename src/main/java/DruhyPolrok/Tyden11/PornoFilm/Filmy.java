@@ -19,10 +19,10 @@ public class Filmy {
         pornoherecky.add(Lana);
 
     for (PornoHerec pornoHerec: pornoherci){
-        System.out.println("Dlzka ciciny "+pornoHerec.MenoPriezvisko+" je "+pornoHerec.dlzka);
+        System.out.println("Dlzka ciciny "+ pornoHerec.getMenoPriezvisko()+" je "+pornoHerec.getDlzka());
     }
         for (PornoHerecka pornoHerecka: pornoherecky){
-            System.out.println("Hlbka vaginy "+pornoHerecka.menoPriezvisko+" je "+pornoHerecka.hlbkaVaginy);
+            System.out.println("Hlbka vaginy "+pornoHerecka.getMenoPriezvisko()+" je "+pornoHerecka.getHlbkaVaginy());
         }
 
     }

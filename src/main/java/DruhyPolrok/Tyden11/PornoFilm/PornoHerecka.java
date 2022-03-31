@@ -5,10 +5,10 @@ import java.util.List;
 
 public class PornoHerecka {
 
-    String menoPriezvisko;
-    String pseudonym;
-    double dostrek;
-    double hlbkaVaginy;
+    private String menoPriezvisko;
+    private String pseudonym;
+    private double dostrek;
+    private double hlbkaVaginy;
 
     List<String> filmy = new ArrayList<>();
 
@@ -25,6 +25,29 @@ public class PornoHerecka {
         this.hlbkaVaginy=hlbkaVaginy1;
     }
 
+    public void setDostrek(double dostrek) {
+        this.dostrek = dostrek;
+    }
+
+    public void setHlbkaVaginy(double hlbkaVaginy) {
+        this.hlbkaVaginy = hlbkaVaginy;
+    }
+
+    public String getMenoPriezvisko() {
+        return menoPriezvisko;
+    }
+
+    public String getPseudonym() {
+        return pseudonym;
+    }
+
+    public double getDostrek() {
+        return dostrek;
+    }
+
+    public double getHlbkaVaginy() {
+        return hlbkaVaginy;
+    }
 
     @Override
     public String toString() {

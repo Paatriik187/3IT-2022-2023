@@ -2,7 +2,7 @@ package DruhyPolrok.Tyden12;
 
 public class Pes {
 
-   private String rasa;
+    private String rasa;
     private String pohlavie;
     private double vek;
     private String meno;
@@ -22,8 +22,21 @@ public class Pes {
         return this.rasa;
     }
 
+    public String getPohlavie() {
+        return pohlavie;
+    }
+
+    public String getMeno() {
+        return meno;
+    }
+
     public void setVek(double vek) {
-        this.vek = vek;
+        if(vek>0){
+        this.vek = vek;}
+    }
+
+    public double getVek() {
+        return vek;
     }
 
     public void hrasasfenou(Pes pes) {
