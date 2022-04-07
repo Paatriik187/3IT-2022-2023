@@ -10,18 +10,22 @@ public class Nasefilmy2 {
     public static void main(String[] args) {
 
         PornoHerecka pornoHerecka = pornoHerecky().get(0);
-
-
-        getObjemVacku();
+        List<PornoHerec> herci = pornoHerci();
+        //herci.forEach(ph -> System.out.println(ph.getObjemVacku()));
+        for (PornoHerec herec : herci) {
+            System.out.println(herec.getObjemVacku());
+        }
 
         pornoHerecka.robiGangbang(pornoHerci());
 
-        getObjemVacku();
-
+        //herci.forEach( ph -> System.out.println(ph.getObjemVacku()));
+        for (PornoHerec herec : herci) {
+            System.out.println(herec.getObjemVacku());
+        }
     }
 
     private static void getObjemVacku(){
-        pornoHerci().forEach( ph -> System.out.println(ph.getObjemVacku()));
+        //pornoHerci().forEach( ph -> System.out.println(ph.getObjemVacku()));
 
     }
 }
