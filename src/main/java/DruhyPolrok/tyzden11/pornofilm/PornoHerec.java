@@ -3,27 +3,26 @@ package DruhyPolrok.tyzden11.pornofilm;
 import java.util.ArrayList;
 import java.util.List;
 
-public class PornoHerec {
+public class PornoHerec extends Herec{
 
-    private String menoPriezvisko;
-    private String pseudonym;
     private double dlzkaCiciny;
     private double objemVacku;
     private double dostrek;
 
-    List<String> filmy = new ArrayList<>();
    private final double objemJednehoStriku = 6.0;
 
-    private PornoHerec() {
+
+     PornoHerec() {
+        super();
     }
     public PornoHerec(String menoPriezvisko, String pseudonym, double dlzkaCiciny,
                       double objemVacku, double dostrek) {
-        this.menoPriezvisko = menoPriezvisko;
-        this.pseudonym = pseudonym;
+        super(menoPriezvisko,pseudonym);
         this.dlzkaCiciny = dlzkaCiciny;
         this.objemVacku = objemVacku;
         this.dostrek = dostrek;
     }
+
 
     public void hraVoFilme(String nazovFilmu){
         filmy.add(nazovFilmu);
@@ -42,21 +41,17 @@ public class PornoHerec {
         return objemVacku;
     }
 
-    public String getPseudonym() {
-        return pseudonym;
-    }
 
     public double getDostrek() {
         return dostrek;
     }
 
-    public String getMenoPriezvisko(){ return menoPriezvisko;}
     public double getDlzkaCiciny(){return  dlzkaCiciny;}
     @Override
     public String toString() {
         return "PornoHerec{" +
-                "menoPriezvisko='" + menoPriezvisko + '\'' +
-                ", pseudonym='" + pseudonym + '\'' +
+                "menoPriezvisko='" + super.getMenoPriezvisko() + '\'' +
+                ", pseudonym='" + super.getPseudonym() + '\'' +
                 ", dlzkaCiciny=" + dlzkaCiciny +
                 ", objemVacku=" + objemVacku +
                 ", dostrek=" + dostrek +
