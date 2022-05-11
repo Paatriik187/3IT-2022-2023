@@ -12,6 +12,7 @@ public class Entity {
         this.vyska=vyska;
     }
 
+
     public String getMeno() {
         return meno;
     }

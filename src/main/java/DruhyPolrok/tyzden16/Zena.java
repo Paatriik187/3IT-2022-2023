@@ -1,10 +1,13 @@
 package DruhyPolrok.tyzden16;
 
-public class zena extends Entity{
+import java.util.ArrayList;
+import java.util.List;
+
+public class Zena extends Entity{
 
     private final String pohlavie="Žena";
 
-    public zena(int vek, String meno, int vyska){
+    public Zena(int vek, String meno, int vyska){
         super(meno,vek,vyska);
     }
     public String getPohlavie() {

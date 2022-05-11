@@ -1,10 +1,13 @@
 package DruhyPolrok.tyzden16;
 
-public class muz extends Entity{
+import java.util.ArrayList;
+import java.util.List;
+
+public class Muz extends Entity{
 
     private final String pohlavie="muž";
 
-    public muz(int vek, String meno, int vyska){
+    public Muz(int vek, String meno, int vyska){
         super(meno,vek,vyska);
     }
 

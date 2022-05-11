@@ -44,13 +44,13 @@ public class Herec {
 
     public void pridatFilm(String nazovFilmu){
         filmy.add(nazovFilmu);
-        System.out.println("Film "+nazovFilmu+" bol pridany.");
+        System.out.println("Film herca/herecky "+getMenoPriezvisko()+" s nazvom "+nazovFilmu+" bol pridany.");
     }
 
     public boolean odobratFilm(String nazovFilmu){
         if(filmy.contains(nazovFilmu)){
             filmy.remove(nazovFilmu);
-            System.out.println("Film "+nazovFilmu+" bol uspesne odobrany");
+            System.out.println("Film herca/herecky "+getMenoPriezvisko()+" s nazvom "+nazovFilmu+" bol uspesne odobrany");
             return true;
         }
         else {

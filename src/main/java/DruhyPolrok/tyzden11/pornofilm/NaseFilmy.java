@@ -41,10 +41,11 @@ public class NaseFilmy {
         evka.pridatFilm("Gangbang");
         evka.pridatFilm("v kostole");
         System.out.println(evka.getFilmy());
-        System.out.println(evka.odobratFilm("Ctibor Linguini"));
+        System.out.println(evka.odobratFilm("Paradontax"));
         System.out.println(evka.getFilmy());
         System.out.println(evka.odobratFilm("Gangbang"));
         System.out.println(evka.getFilmy());
+        System.out.println(ferko.getFilmy());
 
     }
 }
